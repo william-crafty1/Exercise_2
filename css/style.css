@@ -1,8 +1,74 @@
 
 body{
+    display: flex;
+    justify-content: center;
+    height: fit-content;
     font-family: 'Nanum Brush Script', cursive;
+    background-color: #ccc;
 }
 
 header {
     font-family: 'Seaweed Script', cursive;
+    background-color: white;
+    font-size: x-large;
+}
+
+main{
+    justify-content: center;
+    max-width: 800px;
+    background-color:white;
+    padding: 20px;
+}
+
+.first {
+    padding: 5px;
+    width: 90%;
+}
+
+
+
+.image1{
+    float: right;
+    height: 250px;
+    width: 250px;
+    margin-left: 10px;
+    border: solid 20px #ddd ;
+    border-bottom: solid 40px #ddd;
+    box-shadow: 0 4px 8px 0  #999 , 0 6px 20px 0  #999;
+    color: #333 ;
+    transform: rotate(2deg);
+}
+
+.image2{
+    float: left;
+    height: 250px;
+    width: 250px;
+    margin-right: 10px;
+    border: solid 20px #ddd;
+    border-bottom: solid 40px #ddd;
+    box-shadow: 0 4px 8px 0  #999 , 0 6px 20px 0  #999;
+    color: #333;
+    transform: rotate(-2deg);
+}
+
+.chest{
+    width: 250px;
+    height: 250px;
+    transform: rotate(-0.5deg);
+}
+
+.boat{
+    height: 250px;
+    width: 250px;
+    transform: rotate(0.3deg);
+}
+
+.caption1{
+    display: flex;
+    justify-content: center;
+}
+
+.caption2{
+    display: flex;
+    justify-content: center;
 }
